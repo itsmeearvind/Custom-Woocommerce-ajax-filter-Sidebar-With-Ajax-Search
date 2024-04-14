@@ -13,3 +13,416 @@
 
 
 */
+
+	.owl-nav button {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: absolute;
+		top: 0;
+		border: 0;
+		margin: 0;
+		align-items: center;
+		height: 100%;
+	}
+
+	.owl_slider button.owl-prev {
+		left: -30px;
+	}
+
+	.owl_slider button.owl-next {
+		right: -40px;
+	}
+
+
+
+	ul.businesss_power {
+		margin: 20px !important;
+		padding-left: 0px;
+	}
+
+	.item_doct h3 {
+		font-size: 16px;
+		font-weight: 700;
+		padding: 0;
+	}
+
+	.owl-stage-outer {
+		margin: 7px;
+		/* background: #d9d9d9; */
+	}
+
+	.item_doct img {
+		width: 103px !important;
+	}
+
+	.item_pass {
+		background: white;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+		box-shadow: 0px 0px 6px 3px #00000029;
+		padding: 10px;
+		margin: 20px;
+	}
+
+	.item_doct img {
+		width: 103px !important;
+		margin: auto;
+	}
+
+	.item_doct h5 {
+		font-size: 16px;
+		font-weight: 400;
+		padding-top: 14px;
+	}
+
+	.owl_slider button span {
+		background: #68c6026e;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: end;
+		justify-content: center;
+		color: #68C602;
+		border-radius: 39px;
+		font-size: 37px;
+	}
+
+	.drop_itam {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 55px;
+	}
+
+	.form-select.sotting {
+		width: 260px;
+		min-width: 260px;
+		padding: 10px 12px;
+		border-radius: 45px;
+	}
+
+	section.filter {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.part_drop p {
+		padding: 0;
+		margin: 0;
+	}
+
+	.filter_img img {
+		width: 100%;
+	}
+
+	.filter_price_cd p {
+		padding: 0;
+		margin: 0;
+	}
+
+	.filter_price_cd {
+		padding-top: 15px;
+	}
+
+
+	.filter_price_cd p {
+		/* padding: 0; */
+		margin: 0;
+		padding-bottom: 9px;
+		text-align: center;
+	}
+
+	.filter_price_cd {
+		padding-top: 15px;
+		text-align: center;
+	}
+
+	button.cart_btn {
+		border: none;
+		background: #610099;
+		padding: 12px 50px;
+		color: white;
+		font-size: 16px;
+		border-radius: 50px;
+	}
+
+	.filter_box_poin {
+		margin-bottom: 40px;
+	}
+
+
+	/* filter css start */
+	/* filter price */
+	.filter-price {
+		width: 100%;
+		border: 0;
+		padding: 0;
+		margin: 0;
+	}
+
+	.price-title {
+		position: relative;
+		color: #646464;
+		font-size: 14px;
+		line-height: 1.2em;
+		font-weight: 400;
+	}
+
+	.price-field {
+		position: relative;
+		width: 100%;
+		box-sizing: border-box;
+		padding-bottom: 21px;
+	}
+
+	.price-field input[type=range] {
+		position: absolute;
+		width: 100%;
+	}
+
+	/* Reset style for input range */
+	.price-field input[type=range] {
+		pointer-events: none;
+		-webkit-appearance: none;
+	}
+
+	.price-field input[type=range]::-webkit-slider-thumb {
+		-webkit-appearance: none;
+	}
+
+	.price-field input[type=range]:active,
+	.price-field input[type=range]:focus {
+		outline: 0;
+	}
+
+	/* 2 cái nút tròn và các trình duyệt hỗ trợ */
+	.price-field input[type=range]::-webkit-slider-thumb {
+		/* WebKit/Blink */
+		position: relative;
+		-webkit-appearance: none;
+		margin: 0;
+		border: 0;
+		outline: 0;
+		border-radius: 50%;
+		height: 15px;
+		width: 15px;
+		margin-top: -5px;
+		background-color: white;
+		cursor: pointer;
+		cursor: pointer;
+		pointer-events: all;
+		z-index: 100;
+		border: 4px solid #333333;
+	}
+
+	.price-field input[type=range]::-moz-range-thumb {
+		/* Firefox */
+		position: relative;
+		appearance: none;
+		margin: 0;
+		border: 0;
+		outline: 0;
+		border-radius: 50%;
+		height: 11px;
+		width: 11px;
+		margin-top: -5px;
+		background-color: #95bc39;
+		cursor: pointer;
+		cursor: pointer;
+		pointer-events: all;
+		z-index: 100;
+	}
+
+	.price-field input[type=range]::-ms-thumb {
+		/* IE */
+		position: relative;
+		appearance: none;
+		margin: 0;
+		border: 0;
+		outline: 0;
+		border-radius: 50%;
+		height: 11px;
+		width: 11px;
+		margin-top: -5px;
+		background-color: #95bc39;
+		cursor: pointer;
+		cursor: pointer;
+		pointer-events: all;
+		z-index: 100;
+	}
+
+	/* thanh trượt kéo */
+	.price-field input[type=range]::-webkit-slider-runnable-track {
+		/* WebKit/Blink */
+		width: 100%;
+		height: 5px;
+		cursor: pointer;
+		background: #d8d8d8;
+		border-radius: 5px;
+	}
+
+	.price-field input[type=range]::-moz-range-track {
+		/* Firefox */
+		width: 100%;
+		height: 1px;
+		cursor: pointer;
+		/* background: #95bc39; */
+		border-radius: 5px;
+		background-color: red;
+	}
+
+	.price-field input[type=range]::-ms-track {
+		/* IE */
+		width: 100%;
+		height: 1px;
+		cursor: pointer;
+		/* background: #95bc39; */
+		border-radius: 5px;
+		background-color: red;
+	}
+
+	/* bảng lọc giá trị hiển thị */
+	.price-wrap {
+		display: inline-flex;
+		color: #646464;
+		font-size: 14px;
+		line-height: 1.2em;
+		font-weight: 400;
+		float: left;
+		padding-top: 11px;
+	}
+
+	.two_sidebar button {
+		float: right;
+		font-size: 12px;
+		color: white;
+		background: #222222;
+		border: none;
+		padding: 7px 28px 7px 28px;
+		font-weight: bold;
+		border-radius: 38px;
+	}
+
+
+	.two_sidebar button:focus {
+		outline: none;
+	}
+
+	.price-wrap_line {
+		margin: 0px 7px;
+	}
+
+	.price-wrap #one,
+	.price-wrap #two {
+		width: 35px;
+		text-align: right;
+		margin: 0;
+		padding: 0;
+		background: 0;
+		border: 0;
+		outline: 0;
+		color: #646464;
+		font-size: 14px;
+		line-height: 1.2em;
+		font-weight: 400;
+	}
+
+	.price-wrap label {
+		text-align: right;
+	}
+
+	/* Style for active state input */
+	.price-field input[type=range]:hover::-webkit-slider-thumb {
+		box-shadow: 0 0 0 0.5px #fff;
+		transition-duration: 0.3s;
+	}
+
+	.price-field input[type=range]:active::-webkit-slider-thumb {
+		box-shadow: 0 0 0 0.5px #fff;
+		transition-duration: 0.3s;
+	}
+
+	/* filter price */
+	.sidebar_categorie_grid .two_sidebar h3 {
+		font-size: 13px;
+		color: #424242;
+		margin: 0;
+		font-weight: bold;
+		padding-bottom: 21px;
+	}
+
+	.filter_pD {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.two_sidebar h3 {
+		padding-bottom: 21px;
+	}
+
+	.filter_con {
+		padding-top: 48px;
+	}
+
+	.filter_contant_box {
+		padding-left: 50px;
+	}
+
+	ul.list_Pri {
+		list-style: none;
+		padding-left: 5px;
+	}
+
+	ul.list_Pri li a {
+		text-decoration: none;
+		color: #333333;
+	}
+
+
+	ul.list_Pri {
+		list-style: none;
+		padding-left: 33px;
+	}
+
+	ul.list_Pri {
+		list-style: none;
+		padding-left: 8px;
+	}
+
+	.buttonFolp a {
+		color: #333333;
+		cursor: pointer;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: 400;
+		font-family: Lato;
+	}
+
+	ul.list_Pri li a {
+		font-size: 18px;
+	}
+
+	.buttonFolp {
+		padding: 3px 0;
+	}
+
+	.buttonsop {
+		padding-right: 92px;
+	}
+
+	.age_part {
+		padding-top: 25px;
+	}
+
+	.owl-carousel {
+		display: block !important;
+	}
+
+	.woocommerce-loop-product__title {
+		font-size: 16px !important;
+	}
+
+	/* filter css end */
